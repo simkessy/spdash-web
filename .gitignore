@@ -15,3 +15,25 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore guard related files
+/spring/*.pid
+
+# Ignore application configuration
+
+/config/application.yml
+/config/secrets.yml
+/config/application.yml
+
+
+# Ignore sublime notes
+*.TODO
+
+# Ignore Browser-Sync file
+/bs-config.js
+
+# Ignore PaperClip Asset files
+/paperclip_assets
+
+# Ignore sidebar folder
+/vendor/bootstrap*
