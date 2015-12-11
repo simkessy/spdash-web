@@ -12,8 +12,7 @@ gem 'jbuilder', '2.2.3'
 gem 'sdoc', '0.4.0', group: :doc
 gem 'google-analytics-rails'
 gem 'slack-notifier'
-
-# Installed by Kessy
+gem 'turbolinks'
 gem 'momentjs-rails'
 gem 'bootstrap3-datetimepicker-rails'
 gem 'hirb' # Better irb console output
