@@ -22,5 +22,10 @@ module Spdash
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+
+    # Disable test creation
+    config.generators.assets = true
+    config.generators.helper = false
+    config.generators.test_framework = false
   end
 end
