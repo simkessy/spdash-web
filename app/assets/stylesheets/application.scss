@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+@import "colors";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "bootstrap-datetimepicker";
+@import "select2";
+@import "select2-bootstrap";
+@import "dataTables/bootstrap/3/jquery.dataTables.bootstrap";
+@import "formvalidation.min";
+@import "*";

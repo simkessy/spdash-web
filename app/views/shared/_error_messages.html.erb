@@ -1,0 +1,7 @@
+<!-- Error messages -->
+<% flash.each do |name, msg| %>
+  <div class="flash-present alert alert-<%= name %> alert-dismissible text-center alert-<%= defined?(status) ? status : "no-status" %>  <%= style if defined?(style) %>">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <%= msg %>
+  </div>
+<% end %>
