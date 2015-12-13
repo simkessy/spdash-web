@@ -76,4 +76,29 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # Necessary for assets to load on heroku
+  config.server_static_files = true
+  config.assets.compile = true
+  # Necessary for environment variables to work
+  config.secret_key_base = ENV["SECRET_KEY_BASE"]
+
+  # EMAIL SETTINGS
+    # Don't care if the mailer can't send.
+    config.action_mailer.raise_delivery_errors = true
+    # Specify what domain to use for mailer urls
+    config.action_mailer.perform_deliveries = true
+    config.action_mailer.default_url_options = { host: 'spdash.com' }
+
+    # SendGrid SMTP Settings
+    config.action_mailer.delivery_method = :smtp
+    config.action_mailer.smtp_settings = {
+      :user_name => ENV['SENDGRID_USERNAME'],
+      :password => ENV['SENDGRID_PASSWORD'],
+      :domain => 'spdash.com',
+      :address => 'smtp.sendgrid.net',
+      :port => 587,
+      :authentication => :plain,
+      :enable_starttls_auto => true
+    }
 end
