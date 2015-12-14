@@ -4,19 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
- /* Variables theme colors -kc*/
- $sp-yellow: #F8D35E;
- $sp-dark-blue: #1B6AA3;
- $sp-light-blue: #7CC8EC;
- $sp-red: #F47264;
- $sp-green: #84CBC5;
-
-
-  /* Use this to change the main site color */
-  $sp-primary: rgba($sp-light-blue,1);
-  $sp-primary-hover:  rgba($sp-dark-blue,0.5);
-
-  body {
+ body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -36,7 +24,6 @@ p {
         font-size: 16px;
     }
 }
-
 
 a,
 a:hover,
@@ -95,8 +82,8 @@ h6 {
     border: 1px solid white !important;
 
     &:hover {
-     background-color: rgba(0,0,0,0.35) !important;
- }
+       background-color: rgba(0,0,0,0.35) !important;
+   }
 }
 
 .btn-primary:hover,
@@ -944,7 +931,7 @@ body {
 header#banner {
   text-align: center;
   color: white;
-  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)),url(http://carleton.sitnwork.com/img/cu-landing.jpg);
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)),url(https://c.s-microsoft.com/en-us/CMSImages/Hero_SharePointOnline_1600x487.jpg?version=1d2e48d7-5ed5-1762-9710-358ad3e567f0);
     /* background: url(../assets/header-bg.jpg); */
     /* background-image: url(http://finda.photo/image/11235/download); */
     background-attachment: fixed;
