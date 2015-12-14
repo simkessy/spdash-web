@@ -308,6 +308,27 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 70px;
+
+
+    .intro-heading {
+        font-size: 6rem;
+        font-weight: 300;
+        line-height: 7.4rem;
+        letter-spacing: -.1rem;
+    }
+
+    .intro-lead-in {
+        font-size: 2.5rem;
+        line-height: 4.4rem;
+        margin-top: 8px;
+        margin-bottom: 36px;
+        padding-top: 16px;
+        font-weight: 300;
+    }
+}
 
 
 @media(min-width:768px) {
@@ -1004,3 +1025,47 @@ hr {
 }
 
 
+.preview {
+    iframe {
+        width: 100%;
+        height: 380px;
+        border: none;
+    }
+}
+
+.feature-container {
+  .fa {
+    font-size: 80px;
+    background: $sp-primary;
+    -ms-background: transparent;
+    -ms-font-color: #FE4D84;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+}
+
+/* IE specific styles go here */
+html.no-smil {
+  .feature-container {
+    .fa {
+      font-size: 80px;;
+      color: #FE4D84;
+      background: none;
+  }
+}
+}
+
+/* Firefox specific styles go here */
+@-moz-document url-prefix() {
+  .feature-container {
+    .fa {
+      font-size: 80px;;
+      color: #FE4D84;
+      background: none;
+  }
+}
+}
+.feature-title {
+    color: $sp-primary;
+    text-transform: none;
+}

@@ -1,0 +1,85 @@
+/* ROW SPACING */
+.row-space-top-0 {
+  margin-top: 0px !important;
+}
+.row-space-0 {
+  margin-bottom: 0px !important;
+}
+.row-space-top-1 {
+  margin-top:6.25px
+}
+.row-space-2 {
+  margin-bottom:12.5px
+}
+.row-space-top-2 {
+  margin-top:12.5px
+}
+.row-space-3 {
+  margin-bottom:18.75px
+}
+.row-space-top-3 {
+  margin-top:18.75px
+}
+.row-space-4 {
+  margin-bottom:25px
+}
+.row-space-top-4 {
+  margin-top:25px
+}
+.row-space-5 {
+  margin-bottom:31.25px
+}
+.row-space-top-5 {
+  margin-top:31.25px
+}
+.row-space-6 {
+  margin-bottom:37.5px
+}
+.row-space-top-6 {
+  margin-top:37.5px
+}
+.row-space-7 {
+  margin-bottom:43.75px
+}
+.row-space-top-7 {
+  margin-top:43.75px
+}
+.row-space-8 {
+  margin-bottom:50px
+}
+.row-space-top-8 {
+  margin-top:50px;
+}
+
+/* Make pages long enough */
+.fit-height{
+  min-height: 60vh;
+}
+
+.hide {
+  display: none !important;
+}
+
+.row-full-height {
+  height: 100%;
+}
+
+.block-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clickable {
+  cursor: pointer;
+}
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+.center {
+  float: none;
+  margin: 0 auto;
+}
+.full-width {
+  min-width: 100%
+}
