@@ -289,7 +289,7 @@ header {
     position: relative;
     text-align: left;
     color: white;
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://raygun.io/cassette.axd/file/images/backgrounds/home-raygun-app-877504597ae6cfcfd53a86796e9c5fd3d5ef7291.jpg);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(http://i0.wp.com/blogs.perficient.com/microsoft/files/2015/03/shutterstock_158503835.jpg);
     background-position: center;
     background-repeat: none;
     background-size: cover;
@@ -674,8 +674,7 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(../assets/map-image.png);
+    background-color: $sp-black;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -739,12 +738,15 @@ section#contact .text-danger {
 }
 
 footer {
-    padding: 25px 0;
+    background-color: color("orange","base");
+    padding: 5px 0;
     text-align: center;
+    border-top: 1px solid #303847
 }
 
 footer span.copyright {
-    text-transform: uppercase;
+    text-weight: bold;
+    color: white;
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
@@ -752,10 +754,19 @@ footer span.copyright {
 
 footer ul.quicklinks {
     margin-bottom: 0;
-    text-transform: uppercase;
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
+    color: white;
+
+    a {
+        color: white;
+
+        &:hover {
+            color: $sp-primary;
+            text-decoration: none;
+        }
+    }
 }
 
 ul.social-buttons {
@@ -931,7 +942,7 @@ body {
 header#banner {
   text-align: center;
   color: white;
-  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)),url(https://c.s-microsoft.com/en-us/CMSImages/Hero_SharePointOnline_1600x487.jpg?version=1d2e48d7-5ed5-1762-9710-358ad3e567f0);
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)),url(https://c.s-microsoft.com/en-us/CMSImages/home_mandarin_1900x650.jpg?version=7130ac5c-545e-a59f-4f1b-f346a41ea3b4);
     /* background: url(../assets/header-bg.jpg); */
     /* background-image: url(http://finda.photo/image/11235/download); */
     background-attachment: fixed;
@@ -950,7 +961,6 @@ header#banner {
   }
   .intro-text .intro-heading {
       margin-bottom: 25px;
-      text-transform: uppercase;
       font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
       font-size: 65px;
       font-weight: 500;
