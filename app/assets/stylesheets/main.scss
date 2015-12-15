@@ -374,73 +374,30 @@ section {
     text-transform: none;
 }
 
-#feature .feature-item {
-    right: 0;
-    margin: 0 0 15px;
-}
-
-#feature .feature-item .feature-link {
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    max-width: 400px;
-}
-
-#feature .feature-item .feature-link .feature-hover {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    background: rgba($sp-light-blue,.7);
-    transition: all ease .5s;
-}
-
-#feature .feature-item .feature-link .feature-hover:hover {
-    opacity: 1;
-}
-
-#feature .feature-item .feature-link .feature-hover .feature-hover-content {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    height: 20px;
-    margin-top: -12px;
-    text-align: center;
-    font-size: 20px;
+#feature {
+    text-align: left;
     color: white;
-}
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)),url(https://c.s-microsoft.com/en-us/CMSImages/home_mandarin_1900x650.jpg?version=7130ac5c-545e-a59f-4f1b-f346a41ea3b4);
+    /* background: url(../assets/header-bg.jpg); */
+    /* background-image: url(http://finda.photo/image/11235/download); */
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: none;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
 
-#feature .feature-item .feature-link .feature-hover .feature-hover-content i {
-    margin-top: -12px;
-}
-
-#feature .feature-item .feature-link .feature-hover .feature-hover-content h3,
-#feature .feature-item .feature-link .feature-hover .feature-hover-content h4 {
-    margin: 0;
-}
-
-#feature .feature-item .feature-caption {
-    margin: 0 auto;
-    padding: 25px;
-    max-width: 400px;
-    text-align: center;
-    background-color: white;
-}
-
-#feature .feature-item .feature-caption h4 {
-    margin: 0;
-    text-transform: none;
-}
-
-#feature .feature-item .feature-caption p {
-    margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
-}
-
-#feature * {
-    z-index: 2;
+    .f-item {
+        margin-bottom: 20px;
+        border-radius: 3px;
+        padding: 10px 25px;
+        background: rgba(color("light-blue","lighten-1"),0.8);
+    }
+    .f-title {
+        font-size: 2rem;
+        padding-bottom: 5px;
+    }
 }
 
 @media(min-width:767px) {
@@ -449,225 +406,7 @@ section {
     }
 }
 
-.timeline {
-    position: relative;
-    padding: 0;
-    list-style: none;
-}
 
-.timeline:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 40px;
-    width: 2px;
-    margin-left: -1.5px;
-    background-color: #f1f1f1;
-}
-
-.timeline>li {
-    position: relative;
-    margin-bottom: 50px;
-    min-height: 50px;
-}
-
-.timeline>li:before,
-.timeline>li:after {
-    content: " ";
-    display: table;
-}
-
-.timeline>li:after {
-    clear: both;
-}
-
-.timeline>li .timeline-panel {
-    float: right;
-    position: relative;
-    width: 100%;
-    padding: 0 20px 0 100px;
-    text-align: left;
-}
-
-.timeline>li .timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
-
-.timeline>li .timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
-
-.timeline>li .timeline-image {
-    z-index: 100;
-    position: absolute;
-    left: 0;
-    width: 80px;
-    height: 80px;
-    margin-left: 0;
-    border: 7px solid #f1f1f1;
-    border-radius: 100%;
-    text-align: center;
-    color: white;
-    background-color: $sp-primary;
-}
-
-.timeline>li .timeline-image h4 {
-    margin-top: 12px;
-    font-size: 10px;
-    line-height: 14px;
-}
-
-.timeline>li.timeline-inverted>.timeline-panel {
-    float: right;
-    padding: 0 20px 0 100px;
-    text-align: left;
-}
-
-.timeline>li.timeline-inverted>.timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
-
-.timeline>li.timeline-inverted>.timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
-
-.timeline>li:last-child {
-    margin-bottom: 0;
-}
-
-.timeline .timeline-heading h4 {
-    margin-top: 0;
-    color: inherit;
-}
-
-.timeline .timeline-heading h4.subheading {
-    text-transform: none;
-}
-
-.timeline .timeline-body>p,
-.timeline .timeline-body>ul {
-    margin-bottom: 0;
-}
-
-@media(min-width:768px) {
-    .timeline:before {
-        left: 50%;
-    }
-
-    .timeline>li {
-        margin-bottom: 100px;
-        min-height: 100px;
-    }
-
-    .timeline>li .timeline-panel {
-        float: left;
-        width: 41%;
-        padding: 0 20px 20px 30px;
-        text-align: right;
-    }
-
-    .timeline>li .timeline-image {
-        left: 50%;
-        width: 100px;
-        height: 100px;
-        margin-left: -50px;
-    }
-
-    .timeline>li .timeline-image h4 {
-        margin-top: 16px;
-        font-size: 13px;
-        line-height: 18px;
-    }
-
-    .timeline>li.timeline-inverted>.timeline-panel {
-        float: right;
-        padding: 0 30px 20px 20px;
-        text-align: left;
-    }
-}
-
-@media(min-width:992px) {
-    .timeline>li {
-        min-height: 150px;
-    }
-
-    .timeline>li .timeline-panel {
-        padding: 0 20px 20px;
-    }
-
-    .timeline>li .timeline-image {
-        width: 150px;
-        height: 150px;
-        margin-left: -75px;
-    }
-
-    .timeline>li .timeline-image h4 {
-        margin-top: 30px;
-        font-size: 18px;
-        line-height: 26px;
-    }
-
-    .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 20px 20px;
-    }
-}
-
-@media(min-width:1200px) {
-    .timeline>li {
-        min-height: 170px;
-    }
-
-    .timeline>li .timeline-panel {
-        padding: 0 20px 20px 100px;
-    }
-
-    .timeline>li .timeline-image {
-        width: 170px;
-        height: 170px;
-        margin-left: -85px;
-    }
-
-    .timeline>li .timeline-image h4 {
-        margin-top: 40px;
-    }
-
-    .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 100px 20px 20px;
-    }
-}
-
-.team-member {
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.team-member img {
-    margin: 0 auto;
-    border: 7px solid white;
-}
-
-.team-member h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none;
-}
-
-.team-member p {
-    margin-top: 0;
-}
 
 aside.clients img {
     margin: 50px auto;
@@ -738,7 +477,7 @@ section#contact .text-danger {
 }
 
 footer {
-    background-color: color("orange","base");
+    background-color: color("orange","lighten-1");
     padding: 5px 0;
     text-align: center;
     border-top: 1px solid #303847
