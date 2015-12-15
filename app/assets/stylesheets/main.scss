@@ -5,6 +5,7 @@
  */
 
  body {
+    color: $sp-black;
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -290,6 +291,7 @@ header {
     text-align: left;
     color: white;
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(http://i0.wp.com/blogs.perficient.com/microsoft/files/2015/03/shutterstock_158503835.jpg);
+    background-attachment: fixed;
     background-position: center;
     background-repeat: none;
     background-size: cover;
@@ -392,7 +394,11 @@ section {
         margin-bottom: 20px;
         border-radius: 3px;
         padding: 10px 25px;
-        background: rgba(color("light-blue","lighten-1"),0.8);
+        background: rgba(color("light-blue","lighten-1"), 0.5);
+        transition: all .6s;
+    }
+    .f-item-hover {
+        background-color: rgba(color("light-blue","darken-2"), 0.8)
     }
     .f-title {
         font-size: 2rem;
