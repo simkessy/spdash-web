@@ -83,8 +83,8 @@ h6 {
     border: 1px solid white !important;
 
     &:hover {
-     background-color: rgba(0,0,0,0.35) !important;
- }
+       background-color: rgba(0,0,0,0.35) !important;
+   }
 }
 
 .btn-primary:hover,
@@ -422,6 +422,19 @@ section#contact {
     background-color: $sp-black;
     background-position: center;
     background-repeat: no-repeat;
+    height: 95vh;
+    background: url(http://www.freelargeimages.com/wp-content/uploads/2014/12/Tumblr_Backgrounds_02.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+    .container {
+        @include vertical-align();
+    }
 }
 
 section#contact .section-heading {
@@ -804,8 +817,8 @@ html.no-smil {
           font-size: 80px;;
           color: #FE4D84;
           background: none;
-        }
-    }
+      }
+  }
 }
 
 .feature-title {

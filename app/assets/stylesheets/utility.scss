@@ -1,3 +1,11 @@
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 /* ROW SPACING */
 .row-space-top-0 {
   margin-top: 0px !important;
