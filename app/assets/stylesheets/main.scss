@@ -83,8 +83,8 @@ h6 {
     border: 1px solid white !important;
 
     &:hover {
-       background-color: rgba(0,0,0,0.35) !important;
-   }
+     background-color: rgba(0,0,0,0.35) !important;
+ }
 }
 
 .btn-primary:hover,
@@ -799,15 +799,26 @@ html.no-smil {
 
 /* Firefox specific styles go here */
 @-moz-document url-prefix() {
-  .feature-container {
-    .fa {
-      font-size: 80px;;
-      color: #FE4D84;
-      background: none;
-  }
+    .feature-container {
+        .fa {
+          font-size: 80px;;
+          color: #FE4D84;
+          background: none;
+        }
+    }
 }
-}
+
 .feature-title {
     color: $sp-primary;
     text-transform: none;
+}
+
+.form-control {
+    border-radius: 1px;
+}
+
+.contact-form {
+    label {
+        color: white;
+    }
 }

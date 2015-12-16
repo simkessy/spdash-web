@@ -38,4 +38,34 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  # Better Errors
+  BetterErrors::Middleware.allow_ip! "10.0.2.2"
+
+  # Enable bullet
+  config.after_initialize do
+    Bullet.enable = true
+    Bullet.bullet_logger = true
+    Bullet.console = true
+  end
+
+  # EMAIL SETTINGS
+    # Don't care if the mailer can't send.
+    config.action_mailer.raise_delivery_errors = true
+    # Specify what domain to use for mailer urls
+    config.action_mailer.perform_deliveries = true
+    config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+    # SendGrid SMTP Settings
+    config.action_mailer.delivery_method = :smtp
+    config.action_mailer.smtp_settings = {
+      :user_name => ENV['SENDGRID_USERNAME'],
+      :password => ENV['SENDGRID_PASSWORD'],
+      :domain => 'spdash.com',
+      :address => 'smtp.sendgrid.net',
+      :port => 587,
+      :authentication => :plain,
+      :enable_starttls_auto => true
+    }
+
 end

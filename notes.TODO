@@ -4,8 +4,8 @@ Rails  General Notes:
       Restart Postgres "sudo service  postgresql restart"
   ☐ Return random array from model: Model.limit(rand 2..4).order("RANDOM()")
   ☐ Date Formating http://techoctave.com/c7/posts/23-rails-date-formats
-  ☐ Kill server lsof -wni tcp:3000
-  ☐ Rail processes ps -aef | grep rails
+  ☐ Kill server: lsof -wni tcp:3000
+  ☐ Rail processes: ps -aef | grep rails
 
 
 Different Rake:DB tasks:
