@@ -4,6 +4,9 @@
     <title>SpDash</title>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 
+    <!-- Google Analytics -->
+    <%= analytics_init if Rails.env.production? %>
+
     <!-- Google font -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,300,400,600' rel='stylesheet' type='text/css'>
 

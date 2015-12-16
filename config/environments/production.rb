@@ -101,4 +101,7 @@ Rails.application.configure do
       :authentication => :plain,
       :enable_starttls_auto => true
     }
+
+    # Google Analytics Settings
+    GA.tracker = "UA-71480019-1"
 end
