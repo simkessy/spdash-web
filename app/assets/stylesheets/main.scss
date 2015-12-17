@@ -431,69 +431,76 @@ section#contact {
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
+    padding-top: 0px;
 
     .container {
         @include vertical-align();
     }
+
+    #contact-canvas {
+        position: absolute;
+    }
+
+    .section-heading {
+        color: white;
+    }
+    .form-group {
+        margin-bottom: 25px;
+
+        input,
+        textarea {
+            padding: 20px;
+        }
+    }
+
 }
 
-section#contact .section-heading {
-    color: white;
+
+section {
+    &#contact {
+        .form-group {
+            input.form-control {
+                height: auto;
+            }
+            textarea.form-control {
+                height: 236px;
+            }
+        }
+        &:-moz-placeholder {
+            text-transform: uppercase;
+            font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-weight: 700;
+            color: #bbb;
+        }
+        &:-ms-input-placeholder {
+            text-transform: uppercase;
+            font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-weight: 700;
+            color: #bbb;
+        }
+        .text-danger {
+            color: #e74c3c;
+        }
+        .form-control:focus {
+            border-color: $sp-primary;
+            //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+            box-shadow: none;
+        }
+    }
+    &#contact::-webkit-input-placeholder {
+        text-transform: uppercase;
+        font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        color: #bbb;
+    }
+    &#contact::-moz-placeholder {
+        text-transform: uppercase;
+        font-family: Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        color: #bbb;
+    }
 }
 
-section#contact .form-group {
-    margin-bottom: 25px;
-}
-
-section#contact .form-group input,
-section#contact .form-group textarea {
-    padding: 20px;
-}
-
-section#contact .form-group input.form-control {
-    height: auto;
-}
-
-section#contact .form-group textarea.form-control {
-    height: 236px;
-}
-
-section#contact .form-control:focus {
-    border-color: $sp-primary;
-    box-shadow: none;
-}
-
-section#contact::-webkit-input-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact:-moz-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact::-moz-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact:-ms-input-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact .text-danger {
-    color: #e74c3c;
-}
 
 footer {
     background-color: color("orange","lighten-1");

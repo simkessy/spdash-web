@@ -1,45 +1,46 @@
 <!-- Contact Section -->
 <section id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Get in touch</h2>
-                <h3 class="section-subheading">
-                    <span class="sw-contact-subtext">SpDash is currently in developement. If you'd like to be an early tester fill out the form below and we'll get in contact soon.</span>
-                </h3>
-            </div>
-        </div>
-        <div class="row contact-container">
-            <div class="col-xs-offset-2 col-xs-8">
-                 <%= simple_form_for @contact, html: {method: :post, class: "contact-form", novalidate: true} do |f| %>
-                  <div class="row">
-                    <div class="input-field col-sm-6 row-space-top-2">
-                      <%= f.input :name, input_html: {name: "name", id: 'name', class: "form-control"} %>
-                    </div>
-                    <div class="input-field col-sm-6 row-space-top-2">
-                      <%= f.input :organization, input_html: {name: "organization", id: 'organization', class: "form-control"} %>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="input-field col-sm-6 row-space-top-2">
-                      <%= f.input :email, input_html: {name: "email", id: 'email', class: "form-control"} %>
-                    </div>
-                    <div class="input-field col-sm-6 row-space-top-2">
-                      <%= f.input :phone, as: :tel, input_html: {name: "phone", id: 'phone', class: "form-control"} %>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="input-field col-sm-12 row-space-top-2">
-                      <%= f.input :message, as: :text, input_html: {name: "message", id: 'message',class: "form-control"} %>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-xs-12 text-right row-space-top-3">
-                      <%= f.button :submit, "Send", class: "btn btn-xl btn-white" %>
-                    </div>
-                  </div>
-                  <% end %>
-            </div>
-        </div>
+  <canvas id="contact-canvas"></canvas>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <h2 class="section-heading">Get in touch</h2>
+        <h3 class="section-subheading">
+          <span class="sw-contact-subtext">SpDash is currently in developement. If you'd like to be an early tester fill out the form below and we'll get in contact soon.</span>
+        </h3>
+      </div>
     </div>
+    <div class="row contact-container">
+      <div class="col-xs-offset-2 col-xs-8">
+       <%= simple_form_for @contact, html: {method: :post, class: "contact-form", novalidate: true} do |f| %>
+       <div class="row">
+        <div class="input-field col-sm-6 row-space-top-2">
+          <%= f.input :name, input_html: {name: "name", id: 'name', class: "form-control"} %>
+        </div>
+        <div class="input-field col-sm-6 row-space-top-2">
+          <%= f.input :organization, input_html: {name: "organization", id: 'organization', class: "form-control"} %>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col-sm-6 row-space-top-2">
+          <%= f.input :email, input_html: {name: "email", id: 'email', class: "form-control"} %>
+        </div>
+        <div class="input-field col-sm-6 row-space-top-2">
+          <%= f.input :phone, as: :tel, input_html: {name: "phone", id: 'phone', class: "form-control"} %>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col-sm-12 row-space-top-2">
+          <%= f.input :message, as: :text, input_html: {name: "message", id: 'message',class: "form-control"} %>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 text-right row-space-top-3">
+          <%= f.button :submit, "Send", class: "btn btn-xl btn-white" %>
+        </div>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</div>
 </section>
