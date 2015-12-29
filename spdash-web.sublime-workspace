@@ -721,6 +721,10 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/C/Users/Administrator/Dropbox/projects/spDash-web"
+	],
 	"file_history":
 	[
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/layouts/application.html.erb",
@@ -1625,6 +1629,10 @@
 				"C:\\Users\\Administrator\\Dropbox\\projects\\spDash\\spdash.sublime-project"
 			],
 			[
+				"web",
+				"C:\\Users\\Administrator\\Dropbox\\projects\\spDash-web\\spdash-web.sublime-project"
+			],
+			[
 				"spd",
 				"C:\\Users\\Administrator\\Dropbox\\projects\\spDash\\spdash.sublime-project"
 			],
@@ -1633,7 +1641,7 @@
 				"C:\\Program Files\\Sublime Text 3\\playtoday.sublime-project"
 			]
 		],
-		"width": 380.0
+		"width": 705.0
 	},
 	"select_symbol":
 	{
