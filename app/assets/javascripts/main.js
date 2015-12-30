@@ -21,7 +21,7 @@ $(function() {
             message: 'Your name can only be alphabetical'
           }
         }
-      }
+      },
       email: {
         validators: {
           notEmpty: {
