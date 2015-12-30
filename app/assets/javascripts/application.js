@@ -14,4 +14,6 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require turbolinks
+//= require formvalidation.min
+//= require formvalidation/framework/bootstrap.min
 //= require_tree .

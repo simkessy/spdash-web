@@ -15,18 +15,18 @@
        <%= simple_form_for @contact, html: {method: :post, class: "contact-form", novalidate: true} do |f| %>
        <div class="row">
         <div class="input-field col-sm-6 row-space-top-2">
-          <%= f.input :name, input_html: {name: "name", id: 'name', class: "form-control"} %>
+          <%= f.input :name, label: "Full Name", input_html: {name: "name", id: 'name', class: "form-control"} %>
         </div>
         <div class="input-field col-sm-6 row-space-top-2">
-          <%= f.input :organization, input_html: {name: "organization", id: 'organization', class: "form-control"} %>
+          <%= f.input :email, input_html: {name: "email", id: 'email', class: "form-control"} %>
         </div>
       </div>
       <div class="row">
         <div class="input-field col-sm-6 row-space-top-2">
-          <%= f.input :email, input_html: {name: "email", id: 'email', class: "form-control"} %>
+          <%= f.input :organization, label: "Organization (Optional)", input_html: {name: "organization", id: 'organization', class: "form-control"} %>
         </div>
         <div class="input-field col-sm-6 row-space-top-2">
-          <%= f.input :phone, as: :tel, input_html: {name: "phone", id: 'phone', class: "form-control"} %>
+          <%= f.input :phone, label: "Telephone (Optional)", as: :tel, input_html: {name: "phone", id: 'phone', class: "form-control"} %>
         </div>
       </div>
       <div class="row">
