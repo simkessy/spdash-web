@@ -519,6 +519,24 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "Searching 1925 files for \"gmail\"\n\nC:\\Users\\Administrator\\Dropbox\\projects\\spDash-web\\spdash-web.sublime-workspace:\n  389  			],\n  390  			[\n  391: 				\"gmail_\",\n  392: 				\"gmail_password\"\n  393  			],\n  394  			[\n  395: 				\"gmail\",\n  396: 				\"gmailNaruto10!\"\n  397  			],\n  398  			[\n\nC:\\Users\\Administrator\\Dropbox\\projects\\spDash-web\\app\\mailers\\contact_mailer.rb:\n    1  class ContactMailer < ApplicationMailer\n    2    default from: 'info@spdash.com',\n    3:           to: 'simkessy@gmail.com',\n    4            subject: \"SpDash Contact Message\"\n    5  \n\nC:\\Users\\Administrator\\Dropbox\\projects\\spDash-web\\log\\development.log:\n    <binary>\n\n48 matches across 3 files\n",
+			"settings":
+			{
+				"buffer_size": 674,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "app/mailers/contact_mailer.rb",
+			"settings":
+			{
+				"buffer_size": 283,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -527,7 +545,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 262.0,
 		"last_filter": "commi",
 		"selected_items":
 		[
@@ -700,7 +718,7 @@
 				"Package Control: Disable Package"
 			]
 		],
-		"width": 514.0
+		"width": 450.0
 	},
 	"console":
 	{
@@ -730,16 +748,20 @@
 		"/C/Users/Administrator/Dropbox/projects/spDash-web",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets",
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views"
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/javascripts",
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/stylesheets",
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views",
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home"
 	],
 	"file_history":
 	[
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/_contact.html.erb",
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/stylesheets/main.scss",
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/_header.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/_intro.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/javascripts/main.js",
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/_contact.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/stylesheets/colors.scss",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/stylesheets/custom.scss",
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/stylesheets/main.scss",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/stylesheets/application.scss",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/Gemfile",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/javascripts/application.js",
@@ -800,7 +822,6 @@
 		"/C/Users/Administrator/Dropbox/projects/playtoday/app/views/pages/_partnerForm.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/playtoday/config/routes.rb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/layouts/_navigation.html.erb",
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/_header.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/_features.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/playtoday/app/assets/stylesheets/materialize.scss",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/_banner.html.erb",
@@ -898,6 +919,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"gmail",
+			"section-subheading",
+			"line-heigh",
+			"jpg",
+			"get in touch",
 			"right",
 			"33px",
 			"35",
@@ -1020,12 +1046,7 @@
 			"center",
 			"sharepoint",
 			"p>",
-			"navbar-fixed-top",
-			"fixed-top",
-			"margin-bottom",
-			"25px",
-			"banner",
-			"navbar-logo"
+			"navbar-fixed-top"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1049,8 +1070,220 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 674,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										152,
+										157
+									],
+									[
+										173,
+										178
+									],
+									[
+										226,
+										231
+									],
+									[
+										246,
+										251
+									],
+									[
+										490,
+										495
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								492,
+								492
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"default_dir": "C:\\Users\\Administrator\\Dropbox\\projects\\spDash-web",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/mailers/contact_mailer.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 283,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								105,
+								105
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1110,6 +1343,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"heade",
+				"app\\views\\home\\_header.html.erb"
+			],
 			[
 				"intro",
 				"app\\views\\home\\_intro.html.erb"
@@ -1377,10 +1614,6 @@
 			[
 				"_features",
 				"spDash-web\\app\\views\\home\\_features.html.erb"
-			],
-			[
-				"heade",
-				"spDash-web\\app\\views\\home\\_header.html.erb"
 			],
 			[
 				"naviga",
