@@ -1,0 +1,14 @@
+#activation {
+  color: white;
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(http://app.spdash.com/images/wallhaven.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 100vh;
+
+  .row {
+    margin-top: 100px;
+  }
+}

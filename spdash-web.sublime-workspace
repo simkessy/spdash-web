@@ -520,11 +520,11 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/home/index.html.erb",
+			"file": "app/views/pages/activate.html.erb",
 			"settings":
 			{
-				"buffer_size": 141,
-				"line_ending": "Unix"
+				"buffer_size": 32,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -535,8 +535,8 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 262.0,
-		"last_filter": "commi",
+		"height": 312.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -708,7 +708,7 @@
 				"Package Control: Disable Package"
 			]
 		],
-		"width": 450.0
+		"width": 514.0
 	},
 	"console":
 	{
@@ -737,15 +737,26 @@
 	[
 		"/C/Users/Administrator/Dropbox/projects/spDash-web",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app",
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets",
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/stylesheets",
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/controllers",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views",
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home"
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/pages",
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/config",
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/config/initializers"
 	],
 	"file_history":
 	[
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/_intro.html.erb",
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/controllers/application_controller.rb",
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/config/routes.rb",
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/controllers/pages_controller.rb",
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/config/secrets.yml",
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/config/application.yml",
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/Gemfile",
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/tmp/cache/assets/development/sprockets/v3.0/c8CzVYwLFjs-G-8-eMk1bEfzlFYGmGArXo3aTu6dZAk.cache",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/layouts/application.html.erb",
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/index.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/stylesheets/main.scss",
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/_intro.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/mailers/contact_mailer.rb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/_contact.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/_header.html.erb",
@@ -753,12 +764,9 @@
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/stylesheets/colors.scss",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/stylesheets/custom.scss",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/stylesheets/application.scss",
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/Gemfile",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/javascripts/application.js",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/javascripts/formValidation.js",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/models/contact.rb",
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/layouts/application.html.erb",
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/index.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/stylesheets/utility.scss",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/javascripts/canvas.js",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/javascripts/animation.js",
@@ -796,11 +804,9 @@
 		"/C/Users/Administrator/Dropbox/projects/playtoday/app/views/home/_contact.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/_footer.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/playtoday/config/environments/development.rb",
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/config/application.yml",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/contact_mailer/send_message.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/config/environments/development.rb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/controllers/home_controller.rb",
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/config/routes.rb",
 		"/C/Users/Administrator/Dropbox/projects/playtoday/app/views/partner_mailer/send_confirmation.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/playtoday/app/controllers/pages_controller.rb",
 		"/C/Users/Administrator/Dropbox/projects/playtoday/app/mailers/partner_mailer.rb",
@@ -824,13 +830,11 @@
 		"/C/Users/Administrator/Dropbox/projects/playtoday/app/assets/stylesheets/agency.scss",
 		"/C/Users/Administrator/Dropbox/projects/playtoday/app/assets/stylesheets/pages.scss",
 		"/C/Users/Administrator/Dropbox/projects/playtoday/app/assets/stylesheets/home.scss",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Administrator/Dropbox/projects/playtoday/app/assets/javascripts/agency.js",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/javascripts/cbpAnimatedHeader.js",
 		"/C/Users/Administrator/Dropbox/projects/playtoday/app/views/layouts/_navigation.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/_team.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/config/boot.rb",
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/config/secrets.yml",
 		"/C/Users/Administrator/Dropbox/projects/playtoday/config/application.yml",
 		"/C/Users/Administrator/Dropbox/projects/playtoday/config/secrets.yml",
 		"/C/Users/Administrator/Dropbox/projects/sitnwork-marketing/app/views/layouts/application.html.erb",
@@ -868,10 +872,7 @@
 		"/C/Users/Administrator/.ssh/known_hosts",
 		"/C/Users/Administrator/.vagrant.d/insecure_private_key",
 		"/C/Users/Administrator/Dropbox/projects/.vagrant-pegasus/machines/default/virtualbox/id",
-		"/C/Users/Administrator/Dropbox/projects/.vagrant-pegasus/machines/default/virtualbox/index_uuid",
-		"/C/Users/Administrator/Dropbox/projects/.vagrant-laptop/machines/default/virtualbox/id",
-		"/C/Users/Administrator/.vagrant.d/boxes/ubuntu-VAGRANTSLASH-trusty64/20150530.0.0/virtualbox/metadata.json",
-		"/C/Users/Administrator/.vagrant.d/boxes/ubuntu-VAGRANTSLASH-trusty64/20150530.0.0/virtualbox/Vagrantfile"
+		"/C/Users/Administrator/Dropbox/projects/.vagrant-pegasus/machines/default/virtualbox/index_uuid"
 	],
 	"find":
 	{
@@ -908,6 +909,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"Droid Serif\",\"Helvetica Neue\",Helvetica,Arial,sans-serif",
+			"Montserrat,\"Helvetica Neue\",Helvetica,Arial,sans-serif",
+			"\"Roboto Slab\",\"Helvetica Neue\",Helvetica,Arial,sans-serif",
+			"\"Roboto Slab\",\"Helvetica Neue\",Helvetica,Arial,sans-serif;",
+			"font-family",
+			"font-family:",
+			"Montserrat,\"Helvetica Neue\",Helvetica,Arial,sans-serif",
+			"font-family:",
 			"spdash-v1",
 			"app.spdash.com/im",
 			"www",
@@ -1027,15 +1036,7 @@
 			"border-radi",
 			"@font-face",
 			"google",
-			"\"open sans\"",
-			"open-san",
-			"open",
-			"vh",
-			"height",
-			"weight",
-			"bold",
-			"\"Open Sans\",Lucida,Arial,sans-serif;",
-			"center"
+			"\"open sans\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1064,19 +1065,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/home/index.html.erb",
+					"file": "app/views/pages/activate.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 141,
+						"buffer_size": 32,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								141,
-								141
+								24,
+								24
 							]
 						],
 						"settings":
@@ -1085,26 +1086,6 @@
 							"auto_complete": false,
 							"bh_regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -1115,33 +1096,53 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
+								"bh_square_content"
 							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Dracula (SL).tmTheme",
+							"open_with_edit": true,
 							"syntax": "Packages/ERB Autocomplete/erb.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -1210,6 +1211,26 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"routes",
+				"config\\routes.rb"
+			],
+			[
+				"applcon",
+				"app\\controllers\\application_controller.rb"
+			],
+			[
+				"gemfil",
+				"Gemfile"
+			],
+			[
+				"gem",
+				"tmp\\cache\\assets\\development\\sprockets\\v3.0\\c8CzVYwLFjs-G-8-eMk1bEfzlFYGmGArXo3aTu6dZAk.cache"
+			],
+			[
+				"app",
+				"app\\views\\layouts\\application.html.erb"
+			],
 			[
 				"index",
 				"app\\views\\home\\index.html.erb"
@@ -1291,10 +1312,6 @@
 				"app\\js\\loader.js"
 			],
 			[
-				"app",
-				"app\\js\\app.js"
-			],
-			[
 				"pac",
 				"package.json"
 			],
@@ -1359,16 +1376,8 @@
 				"spDash-web\\config\\environments\\development.rb"
 			],
 			[
-				"routes",
-				"spDash-web\\config\\routes.rb"
-			],
-			[
 				"partnerre",
 				"playtoday\\app\\models\\partner_request.rb"
-			],
-			[
-				"gemfil",
-				"spDash-web\\Gemfile"
 			],
 			[
 				"developrb",
@@ -1713,14 +1722,6 @@
 			[
 				"sesscon",
 				"app\\controllers\\users\\sessions_controller.rb"
-			],
-			[
-				"sessionnew",
-				"app\\views\\users\\sessions\\new.html.erb"
-			],
-			[
-				"registnew",
-				"app\\views\\users\\registrations\\new.html.erb"
 			]
 		],
 		"width": 0.0
