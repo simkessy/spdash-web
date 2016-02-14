@@ -20,8 +20,5 @@ $(function() {
     var Encrypted_LicenseKey = cryptico.encrypt(challengeCode, SPD_PublicKeyString, Private_RSA_Key);
 
     license.val(Encrypted_LicenseKey.cipher);
-
-
-    console.log('License has been generated');
   }
 });

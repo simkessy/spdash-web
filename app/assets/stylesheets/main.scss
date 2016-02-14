@@ -415,12 +415,33 @@ section {
 aside.clients img {
     margin: 50px auto;
 }
+section {
+    &#intro {
+        background: #A0C3AF;
+        color: white;
+    }
+    &#intro,
+    &#feature {
+        height: 100vh;
+
+        .container,
+        .container-fluid {
+            @include vertical-align();
+        }
+    }
+    &#contact {
+        height: 96vh;
+
+        .container {
+            @include vertical-align();
+        }
+    }
+}
 
 section#contact {
     background-color: $sp-black;
     background-position: center;
     background-repeat: no-repeat;
-    height: 95vh;
     background: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.25)), url(http://app.spdash.com/images/contact-us.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -435,13 +456,6 @@ section#contact {
         margin-bottom: 50px;
     }
 
-    .container {
-        @include vertical-align();
-    }
-
-    #contact-canvas {
-        position: absolute;
-    }
 
     .section-heading {
         color: white;
