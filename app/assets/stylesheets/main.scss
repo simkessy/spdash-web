@@ -289,8 +289,8 @@ header {
     position: relative;
     text-align: left;
     color: white;
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(http://app.spdash.com/images/header.jpg);
     background-image: url(http://app.spdash.com/images/header.jpg);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(http://app.spdash.com/images/header.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: none;
@@ -382,8 +382,8 @@ section {
 #feature {
     text-align: left;
     color: white;
-    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url(http://app.spdash.com/images/features.jpg);
     background-image: url(http://app.spdash.com/images/features.jpg);
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url(http://app.spdash.com/images/features.jpg);
     background-attachment: fixed;
     background-position: top center;
     background-repeat: none;
@@ -452,8 +452,8 @@ section#contact {
     background-color: $sp-black;
     background-position: center;
     background-repeat: no-repeat;
-    background: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.25)), url(http://app.spdash.com/images/contact-us.jpg);
     background-image: url(http://app.spdash.com/images/contact-us.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.25)), url(http://app.spdash.com/images/contact-us.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: none;
@@ -485,6 +485,9 @@ section#contact {
 
 section {
     &#contact {
+        label {
+            color: color("orange","lighten-1");
+        }
         .form-group {
             input.form-control {
                 height: auto;

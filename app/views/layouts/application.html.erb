@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>SpDash</title>
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+<head>
+  <title>SPDash - SharePoint Management</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 
-    <!-- Google Analytics -->
-    <%= analytics_init if Rails.env.production? %>
+  <meta content="Simplify SharePoint management with SPDash. An easy to use application that enables batch actions for managing your SharePoint sites, perimssions and reports" name="description">
 
-    <!-- Google font -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,300,400,600' rel='stylesheet' type='text/css' media="none">
+  <meta name="keywords" content="SharePoint, Sharepoint 2007, SharePoint 2010, SharePoint 2013, SharePoint Online, Office 365, SharePoint batch, SharePoint batch operations, SharePoint groups, SharePoint sites, SharePoint group updates, SharePoint SPServices, SPServices">
 
-    <!-- Font Awesome -->
-    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="none">
+  <meta name="robots" content="index,follow">
 
-    <%= csrf_meta_tags %>
-  </head>
-  <body>
+  <!-- Google Analytics -->
+  <%= analytics_init if Rails.env.production? %>
 
-    <%= render :partial => "layouts/navigation" %>
+  <!-- Google font -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,300,400,600' rel='stylesheet' type='text/css' media="none">
 
-    <%= yield %>
+  <!-- Font Awesome -->
+  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="none">
 
-    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-    <!-- WISTIA -->
-    <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script>
-  </body>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <%= render :partial => "layouts/navigation" %>
+
+  <%= yield %>
+
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <!-- WISTIA -->
+  <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+</body>
 </html>
