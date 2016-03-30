@@ -740,9 +740,11 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/_features.html.erb",
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/_footer.html.erb",
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/layouts/application.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/_pricing.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/javascripts/pricing.js",
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/layouts/application.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/stylesheets/pricing.scss",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/stylesheets/application.scss",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/_contact.html.erb",
@@ -750,7 +752,6 @@
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/layouts/_navigation.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/_intro.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/index.html.erb",
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/_features.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/config/application.yml",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/stylesheets/activation.scss",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/assets/javascripts/activation.js",
@@ -805,7 +806,6 @@
 		"/C/Users/Administrator/Dropbox/projects/playtoday/app/views/layouts/application.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/playtoday/config/environments/production.rb",
 		"/C/Users/Administrator/Dropbox/projects/playtoday/app/views/home/_contact.html.erb",
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/_footer.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/playtoday/config/environments/development.rb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/contact_mailer/send_message.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/config/environments/development.rb",
@@ -1131,6 +1131,14 @@
 			[
 				"app",
 				"app\\views\\layouts\\application.html.erb"
+			],
+			[
+				"footer",
+				"app\\views\\home\\_footer.html.erb"
+			],
+			[
+				"featu",
+				"app\\views\\home\\_features.html.erb"
 			],
 			[
 				"nav",
@@ -1631,14 +1639,6 @@
 			[
 				"profilefo",
 				"app\\views\\users\\registrations\\_profileForm.html.erb"
-			],
-			[
-				"appj",
-				"app\\assets\\javascripts\\application.js"
-			],
-			[
-				"registrationcontroller",
-				"app\\controllers\\users\\registrations_controller.rb"
 			]
 		],
 		"width": 0.0
@@ -1681,7 +1681,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
