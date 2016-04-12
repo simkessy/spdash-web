@@ -382,8 +382,8 @@ section {
 #feature {
     text-align: left;
     color: white;
-    background-image: url(http://app.spdash.com/images/features.jpg);
-    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url(http://app.spdash.com/images/features.jpg);
+    background-image: url(http://app.spdash.com/images/contact-us.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.25)), url(http://app.spdash.com/images/contact-us.jpg);
     background-attachment: fixed;
     background-position: top center;
     background-repeat: none;
@@ -396,7 +396,7 @@ section {
         margin-bottom: 20px;
         border-radius: 3px;
         padding: 10px 25px;
-        background: rgba(color("light-blue","lighten-1"), 0.5);
+        background: rgba(color("light-blue","lighten-1"), 0.6);
         transition: all .6s;
     }
     .f-item-hover {
@@ -452,8 +452,8 @@ section#contact {
     background-color: $sp-black;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(http://app.spdash.com/images/contact-us.jpg);
-    background: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.25)), url(http://app.spdash.com/images/contact-us.jpg);
+    background-image: url(http://app.spdash.com/images/features.jpg);
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url(http://app.spdash.com/images/features.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: none;
@@ -486,7 +486,7 @@ section#contact {
 section {
     &#contact {
         label {
-            color: color("orange","lighten-1");
+            color: white;
         }
         .form-group {
             input.form-control {

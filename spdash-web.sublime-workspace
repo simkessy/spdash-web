@@ -519,6 +519,24 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "Searching 1893 files for \"bitly\"\n\n0 matches\n\nSearching 1893 files for \"download\"\n\nC:\\Users\\Administrator\\Dropbox\\projects\\spDash-web\\spdash-web.sublime-workspace:\n  714  			\"exit\",\n  715  			\"restart\",\n  716: 			\"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)\"\n  717  		]\n  718  	},\n\nC:\\Users\\Administrator\\Dropbox\\projects\\spDash-web\\app\\assets\\stylesheets\\main.scss:\n  745    background-image: url(https://c.s-microsoft.com/en-us/CMSImages/home_mandarin_1900x650.jpg?version=7130ac5c-545e-a59f-4f1b-f346a41ea3b4);\n  746      /* background: url(../assets/header-bg.jpg); */\n  747:     /* background-image: url(http://finda.photo/image/11235/download); */\n  748      background-attachment: fixed;\n  749      background-position: top center;\n\nC:\\Users\\Administrator\\Dropbox\\projects\\spDash-web\\app\\views\\home\\_header.html.erb:\n    8        </div>\n    9  \n   10:       <a href=\"http://bit.ly/spdash-01-19-16\" class=\"page-scroll btn btn-xl btn-primary\">Download Trial</a>\n   11        <a href=\"#intro\" class=\"page-scroll btn btn-xl btn-white\">Learn more</a>\n   12  \n\n3 matches across 3 files\n",
+			"settings":
+			{
+				"buffer_size": 1613,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "app/views/home/_header.html.erb",
+			"settings":
+			{
+				"buffer_size": 601,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -527,8 +545,8 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 262.0,
-		"last_filter": "commi",
+		"height": 212.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -904,6 +922,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"download",
+			"bitly",
 			"table",
 			"background-image: url(http://app.s",
 			"background-image: url(http://app",
@@ -1029,9 +1049,7 @@
 			"colors",
 			"@import",
 			"$sp-light-blue",
-			" $sp-primary",
-			"$pt-primary",
-			"text-primary"
+			" $sp-primary"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1055,8 +1073,214 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1613,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										651,
+										659
+									],
+									[
+										1166,
+										1174
+									],
+									[
+										1474,
+										1482
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								1480,
+								1480
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"default_dir": "C:\\Users\\Administrator\\Dropbox\\projects\\spDash-web",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ 	].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 42.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/home/_header.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 601,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								427,
+								427
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/ERB Autocomplete/erb.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		},
 		{
@@ -1681,7 +1905,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
