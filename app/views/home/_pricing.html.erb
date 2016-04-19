@@ -9,28 +9,26 @@
       </div>
       <div class="row">
           <div class="col-xs-12">
-            <table id="pricing-table" class="table table-responsive">
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th></th>
-                    </tr>
-                </thead>
+            <table id="pricing-table" class="table table-responsive table-hover">
                 <tbody>
-                    <tr>
-                        <td id="site-license">Site Collection License</td>
-                        <td>$299</td>
+                    <tr id="site-license" data-toggle="modal" data-target="#slModal">
+                        <td>Site Collection License</td>
+                        <td class="text-center">$299</td>
                     </tr>
-                    <tr id="company-license">
+                    <tr id="company-license" data-toggle="modal" data-target="#clModal">
                         <td>Company License</td>
-                        <td>$999</td>
+                        <td class="text-center">$999</td>
                     </tr>
-                    <tr id='reward-license'>
-                        <td>Consultant License</td>
-                        <td></td>
+                    <tr id='referral-license' data-toggle="modal" data-target="#rlModal">
+                        <td>Referal Program</td>
+                        <td class="text-center">Earn with us</td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </div>
 </section>
+
+<%= render 'home/modals/siteLicense' %>
+<%= render 'home/modals/companyLicense' %>
+<%= render 'home/modals/referralProgram' %>
