@@ -1,102 +1,115 @@
+<!-- CREDIT CARD FORM STARTS HERE -->
 <div class="col-xs-12">
-    <!-- CREDIT CARD FORM STARTS HERE -->
-    <div class="panel panel-default credit-card-box">
-        <div class="panel-heading display-table" >
-            <div class="row display-tr" >
-                <h3 class="panel-title display-td" >Payment Details</h3>
-                <div class="display-td" >
-                    <img class="img-responsive pull-right" src="http://i76.imgup.net/accepted_c22e0.png">
-                </div>
-            </div>
+  <div class="panel panel-default credit-card-box">
+    <div class="panel-heading display-table" >
+      <div class="row display-tr" >
+        <h3 class="panel-title display-td" >Payment Details</h3>
+        <div class="display-td" >
+          <img class="img-responsive pull-right" src="http://i76.imgup.net/accepted_c22e0.png">
         </div>
-        <div class="panel-body">
-            <form role="form" id="payment-form" method="POST" action="javascript:void(0);">
-                <div class="row">
-                    <div class="col-xs-12">Pricing <hr></div>
-                    <div class="col-xs-4">
-                        <label>Count:</label>
-                        <input id="licenseCount" type="number" class="form-control" name="count" value="1" min="1" max="10">
-                    </div>
-                    <div class="col-xs-4">
-                        <label for="price">Price:</label>
-                        <input type="number" class="form-control" id="price" name='price' readonly value="299.99"></input>
-                    </div>
-                    <div class="col-xs-4">
-                        <label for="price">Total:</label>
-                        <input type="number" class="form-control" id="total" name='total' readonly></input>
-                    </div>
-                </div>
-
-                <hr>
-
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="form-group">
-                            <label for="cardNumber">CARD NUMBER</label>
-                            <div class="input-group">
-                                <input
-                                    type="tel"
-                                    class="form-control"
-                                    name="cardNumber"
-                                    placeholder="Valid Card Number"
-                                    autocomplete="cc-number"
-                                    required autofocus
-                                />
-                                <span class="input-group-addon"><i class="fa fa-credit-card-alt"></i></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-7 col-md-7">
-                        <div class="form-group">
-                            <label for="cardExpiry"><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
-                            <input
-                                type="tel"
-                                class="form-control"
-                                name="cardExpiry"
-                                placeholder="MM / YY"
-                                autocomplete="cc-exp"
-                                required
-                            />
-                        </div>
-                    </div>
-                    <div class="col-xs-5 col-md-5 pull-right">
-                        <div class="form-group">
-                            <label for="cardCVC">CV CODE</label>
-                            <input
-                                type="tel"
-                                class="form-control"
-                                name="cardCVC"
-                                placeholder="CVC"
-                                autocomplete="cc-csc"
-                                required
-                            />
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="form-group">
-                            <label for="couponCode">COUPON CODE</label>
-                            <input type="text" class="form-control" name="couponCode" />
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <button class="purchase-btn btn btn-success btn-lg btn-block" type="button">Submit</button>
-                    </div>
-                </div>
-                <div class="row" style="display:none;">
-                    <div class="col-xs-12">
-                        <p class="payment-errors"></p>
-                    </div>
-                </div>
-            </form>
-        </div>
+      </div>
     </div>
-    <!-- CREDIT CARD FORM ENDS HERE -->
+    <div class="panel-body">
+      <form role="form" id="payment-form" method="POST" action="javascript:void(0);">
+        <div class="row form-group">
+          <div class="col-xs-6">
+            <label for="f_name">Full Name</label>
+            <input id="f_name" type="text" name="f_name" class="form-control">
+          </div>
+          <div class="col-xs-6">
+            <label for="f_name">Organization</label>
+            <input id="organization" type="text" name="organization" class="form-control">
+          </div>
+        </div>
 
+        <div class="row">
+          <div class="col-xs-6">
+            <label for="tel">Telephone</label>
+            <input id="tel" type="text" name="tel" class="form-control">
+          </div>
+          <div class="col-xs-6">
+            <label for="email">Email</label>
+            <input id="email" type="text" name="email" class="form-control">
+          </div>
+        </div>
 
+        <hr>
+
+        <div class="row">
+          <div class="col-xs-4">
+            <label>Count</label>
+            <input id="licenseCount" type="number" class="form-control" name="count" value="1" min="1" max="10">
+          </div>
+          <div class="col-xs-4">
+            <label for="price">Price</label>
+            <input type="number" class="form-control" id="price" name='price' readonly value="<%= price %>"></input>
+          </div>
+          <div class="col-xs-4">
+            <label for="price">Total</label>
+            <input type="number" class="form-control" id="total" name='total' readonly></input>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="form-group">
+              <label for="cardNumber">Card number</label>
+              <div class="input-group">
+                <input
+                type="tel"
+                class="form-control"
+                name="cardNumber"
+                placeholder="Valid Card Number"
+                autocomplete="cc-number"
+                required autofocus
+                />
+                <span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-7 col-md-7">
+            <div class="form-group">
+              <label for="cardExpiry"><span class="hidden-xs">Expiration</span><span class="visible-xs-inline">EXP</span> Date</label>
+              <input
+              type="tel"
+              class="form-control"
+              name="cardExpiry"
+              placeholder="MM / YY"
+              autocomplete="cc-exp"
+              required
+              />
+            </div>
+          </div>
+          <div class="col-xs-5 col-md-5 pull-right">
+            <div class="form-group">
+              <label for="cardCVC">CV Code</label>
+              <input
+              type="tel"
+              class="form-control"
+              name="cardCVC"
+              placeholder="CVC"
+              autocomplete="cc-csc"
+              required
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <button class="purchase-btn btn btn-success btn-lg btn-block" type="button">Pay -  $<span id="paymentPrice"></span></button>
+          </div>
+        </div>
+        <div class="row" style="display:none;">
+          <div class="col-xs-12">
+            <p class="payment-errors"></p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
 </div>
+<!-- CREDIT CARD FORM ENDS HERE -->

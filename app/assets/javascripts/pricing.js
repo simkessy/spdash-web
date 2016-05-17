@@ -4,14 +4,19 @@ $(function() {
   var total = $('#total');
   var countInput = $('#licenseCount');
 
+
   var defaultPrice = Math.round((price*tax)*100)/100
   total.val(defaultPrice)
+
+  var paymentPrice = $('#paymentPrice');
+  paymentPrice.text(defaultPrice)
 
   countInput.change(function(){
     var count = $(this).val();
     var cost = count * price * tax;
     var finalPrice = Math.round(cost * 100)/100;
-    total.val(finalPrice)
+    total.val(finalPrice);
+    paymentPrice.text(finalPrice);
   })
 });
 

@@ -1,17 +1,48 @@
 <!-- Modal -->
 <div class="modal fade" id="rlModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        <h4 class="modal-title" id="myModalLabel">SPDash Partner Program</h4>
       </div>
       <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 row-space-6">
+            As an SPDash Partner, you will receive a 15% cash back for all transactions you help facilitate. If you're a consultant or have a client which you believe would benefit from SPDash, you can purchase the application on their behalf or have them purchase the application with them indentifying you as the SPDash partner who introduced them to SPDash. Once the purchase has been finalized, you will receive a 10% return on the final price of the transaction. It's that simple.
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <%= simple_form_for @contact, html: {method: :post, class: "", novalidate: true} do |f| %>
+            <div class="row">
+              <div class="input-field col-sm-6 row-space-top-2">
+                <%= f.input :name, label: "Full Name", input_html: {name: "name", id: 'name', class: "form-control"} %>
+              </div>
+              <div class="input-field col-sm-6 row-space-top-2">
+                <%= f.input :email, input_html: {name: "email", id: 'email', class: "form-control"} %>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col-sm-6 row-space-top-2">
+                <%= f.input :organization, label: "Organization (Optional)", input_html: {name: "organization", id: 'organization', class: "form-control"} %>
+              </div>
+              <div class="input-field col-sm-6 row-space-top-2">
+                <%= f.input :phone, label: "Telephone (Optional)", as: :tel, input_html: {name: "phone", id: 'phone', class: "form-control"} %>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col-sm-12 row-space-top-2">
+                <%= f.input :message, as: :text, input_html: {name: "message", id: 'message',class: "form-control", rows:"5"} %>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 text-right row-space-top-3">
+                <%= f.button :submit, "Send", class: "btn btn-lg btn-block " %>
+              </div>
+            </div>
+            <% end %>
+          </div>
+        </div>
       </div>
     </div>
   </div>
