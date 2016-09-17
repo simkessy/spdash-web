@@ -12,3 +12,12 @@ i.form-control-feedback.fv-icon-no-label.fa.fa-times {
   color: color("orange","lighten-1");
   font-size: 1.3rem;
 }
+.btn-download {
+  background: #ff0080;
+  color: white;
+
+  &:hover {
+    border-color: #ab0056;
+    background-color: #ab0056;
+  }
+}
