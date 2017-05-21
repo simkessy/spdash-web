@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"baclg",
+				"background-color"
+			],
+			[
 				"label",
 				"label	<label>"
 			],
@@ -510,10 +514,6 @@
 			[
 				"m",
 				"max	max { |a, b| .. }"
-			],
-			[
-				"ove",
-				"over_five?〔function〕"
 			]
 		]
 	},
@@ -727,10 +727,20 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Administrator/Dropbox/projects/spDash-web"
+		"/home/kessy/Dropbox/projects/spdash-web",
+		"/home/kessy/Dropbox/projects/spdash-web/app",
+		"/home/kessy/Dropbox/projects/spdash-web/app/assets",
+		"/home/kessy/Dropbox/projects/spdash-web/app/assets/stylesheets",
+		"/home/kessy/Dropbox/projects/spdash-web/app/views",
+		"/home/kessy/Dropbox/projects/spdash-web/app/views/layouts"
 	],
 	"file_history":
 	[
+		"/home/kessy/Dropbox/projects/spdash-web/app/views/home/_header.html.erb",
+		"/home/kessy/Dropbox/projects/spdash-web/bin/rails",
+		"/home/kessy/Dropbox/projects/spdash-web/app/views/layouts/_navigation.html.erb",
+		"/home/kessy/Dropbox/projects/spdash-web/app/assets/stylesheets/custom.scss",
+		"/home/kessy/Dropbox/projects/Vagrantfile",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/layouts/_navigation.html.erb",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/app/views/home/_header.html.erb",
 		"/C/Users/Administrator/SharePoint/Impact Analysis System - Site Asset/SponsorEditItem.js",
@@ -853,12 +863,7 @@
 		"/C/Users/Administrator/Dropbox/projects/spDash/test/test.js",
 		"/C/Users/Administrator/Dropbox/projects/spDash/test/notes.js",
 		"/C/Users/Administrator/Dropbox/projects/spDash-web/config/application.rb",
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/bin/bundle",
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/bin/rails",
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/bin/rake",
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/bin/setup",
-		"/C/Users/Administrator/Dropbox/projects/spDash-web/bin/spring",
-		"/C/Users/Administrator/Dropbox/projects/playtoday/.gitignore"
+		"/C/Users/Administrator/Dropbox/projects/spDash-web/bin/bundle"
 	],
 	"find":
 	{
@@ -895,6 +900,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"rgb(181, 0, 91)",
 			"btn-white",
 			"you",
 			"organization",
@@ -1021,8 +1027,7 @@
 			"xs-6 f-it",
 			"col-xs-6",
 			"feature",
-			"col-sm-6",
-			"header"
+			"col-sm-6"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1107,6 +1112,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"rails",
+				"bin/rails"
+			],
+			[
+				"head",
+				"app/views/home/_header.html.erb"
+			],
 			[
 				"header",
 				"app\\views\\home\\_header.html.erb"
@@ -1610,14 +1623,6 @@
 			[
 				"searchfom",
 				"app\\views\\search\\_searchForm.html.erb"
-			],
-			[
-				"materialscs",
-				"app\\assets\\stylesheets\\materialize.scss"
-			],
-			[
-				"error",
-				"app\\views\\shared\\_error_messages.html.erb"
 			]
 		],
 		"width": 0.0

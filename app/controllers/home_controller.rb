@@ -18,7 +18,7 @@ class HomeController < ApplicationController
         }
       end
     else
-      flash[:danger] = "We're experiencing an error, please try again or email us at info@spdash.com"
+      flash[:danger] = "We're experiencing an error, please try again or email us at admin@ksimconsulting.com"
       redirect_to root_path
     end
   end

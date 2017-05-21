@@ -1,6 +1,6 @@
 class ContactMailer < ApplicationMailer
-  default from: 'info@spdash.com',
-          to: 'info@spdash.com',
+  default from: 'admin@ksimconsulting.com',
+          to: 'admin@ksimconsulting.com',
           subject: "SPDash Contact Message"
 
   def send_message contact
