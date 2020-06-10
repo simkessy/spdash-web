@@ -148,7 +148,7 @@ GEM
       railties (>= 3.0)
     friendly_id (5.1.0)
       activerecord (>= 4.0.0)
-    geocoder (1.2.12)
+    geocoder (1.6.1)
     git-version-bump (0.15.1)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
